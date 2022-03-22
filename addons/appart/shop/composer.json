@@ -1,0 +1,19 @@
+{
+    "name": "appart/shop",
+    "autoload": {
+        "psr-4": {
+            "Appart\\Shop\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Shop",
+            "description": "Shop addon"
+        },
+        "laravel": {
+            "providers": [
+                "Appart\\Shop\\ServiceProvider"
+            ]
+        }
+    }
+}
